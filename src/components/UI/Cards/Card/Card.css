@@ -1,0 +1,61 @@
+.CardUpper{
+    width:100%;
+    background-color:transparent;
+    margin-top: 20px;
+    
+}
+.Card{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+    position:relative;
+    box-shadow: 2px 2px 5px rgba(80, 80, 80, 0.25);
+    border-radius: 4px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px;
+    
+}
+.CardChild{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.Icon{
+    z-index: 10;
+    width: 50px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(80, 80, 80, 0.25);
+    position: relative;
+    top: -20px;
+    left:0;
+    border-radius: 4px;
+
+}
+.Label{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: small;
+    margin: 0px;
+    width:auto;
+}
+.Label > div:nth-child(2){
+    font-size: larger;
+    font-weight: 800;
+}
+.secondary{
+    background-color:#018b01;
+}
+.primary{
+    background-color: #42949d;
+}
+.tertiary{
+    background-color:#e4827d;
+}
+.Divider{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
