@@ -5,4 +5,4 @@ This is a react application that was implemented using the material UI library. 
 * Authentication
 * Authorization
 * Rest API
-To see the running application [**visit**](https://uzezijephter-restapi-frontend.herokuapp.com "Employee Manager")
+To see the running application [**visit**](https://uzezijephter-employee-manager.herokuapp.com "Employee Manager")

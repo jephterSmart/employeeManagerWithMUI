@@ -69,7 +69,7 @@ const validate = () => {
                         : "Account number is required";
     helperTextObj.bankAccount = state.bankAccount.length > 8 && parseInt(state.bankAccount) > 99999999 ?"" 
                         : "Account number is required";
-    helperTextObj.bvn = state.bvn.length > 9 && parseInt(state.bankAccount) > 999999999 ?"" 
+    helperTextObj.bvn = state.bvn.length > 9 && parseInt(state.bvn) > 999999999 ?"" 
                         : "Bank Verification number is required";
     
     
